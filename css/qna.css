@@ -21,17 +21,15 @@
   height: auto;
   display: flex;
   flex-direction: column;
-  align-item: center;
   justify-content: center;
   padding: 10px;
 }
 
 .answer-list {
   font-size: 20px;
-  font-weight: bold;
-  color: #ffd058;
+  color: #060053;
   background-color: #ffffff;
-  border: 3px solid #ffd058;
+  border: 1px solid #060053;
   border-radius: 20px;
   padding: 15px;
   margin: 20px;
@@ -40,11 +38,11 @@
 
 .answer-list:hover {
   color: #ffffff;
-  background-color: #ffd058;
+  background-color: #060053;
 }
 
 .answer-list:active {
-  color: #ffd058;
+  color: #060053;
   background-color: #ffffff;
 }
 
@@ -58,13 +56,13 @@
 #status-bar-container {
   width: 80%;
   height: 20px;
-  border: 3px solid #e3e3e3;
+  border: 1px solid #e3e3e3;
   border-radius: 20px;
 }
 
 #status-bar {
   height: 100%;
-  background: linear-gradient(90deg, rgba(255, 208, 88, 1) 35%, rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(90deg, #060053 35%, rgba(255, 255, 255, 1) 100%);
   border-radius: 20px;
 }
 
